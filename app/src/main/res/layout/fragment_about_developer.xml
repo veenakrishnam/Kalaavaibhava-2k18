@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             tools:context=".AboutDeveloperFragment">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/profile_card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                            android:id="@+id/profile_card1a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            card_view:cardUseCompatPadding="true">
+                        <ImageView
+                                android:id="@+id/my_photo"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:src="@drawable/developer_photo" />
+                    </androidx.cardview.widget.CardView>
+
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                        <TextView
+                                android:id="@+id/developer_full_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="cursive"
+                                android:text="@string/developer_full_name"
+                                android:textAlignment="center"
+                                android:textColor="@color/developer_full_name"
+                                android:textStyle="bold"
+                                android:textSize="25sp" />
+
+                        <TextView
+                                android:id="@+id/about_developer"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/developer_full_name"
+                                android:textAlignment="center"
+                                android:text="@string/about_developer"
+                                android:textSize="15sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/profile_card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_card1"
+                    android:padding="5dp"
+                    card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp">
+
+                    <TextView
+                            android:id="@+id/developer_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Email:"
+                            android:textColor="@color/developer_tv1"
+                            android:textSize="20sp" />
+
+                    <TextView
+                            android:id="@+id/developer_email_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/developer_email"
+                            android:text="@string/developer_email"
+                            android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/profile_card3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_card2"
+                    android:padding="5dp"
+                    card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp">
+
+                    <TextView
+                            android:id="@+id/developer_github"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Github:"
+                            android:textColor="@color/developer_tv1"
+                            android:textSize="20sp" />
+
+                    <TextView
+                            android:id="@+id/developer_github_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/developer_github"
+                            android:text="@string/developer_github"
+                            android:textSize="15sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

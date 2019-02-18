@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_outline_home_24px"
+                android:title="Home"/>
+        <item
+                android:id="@+id/nav_events"
+                android:icon="@drawable/ic_outline_bubble_chart_24px"
+                android:title="Events"/>
+        <item
+                android:id="@+id/nav_directions"
+                android:icon="@drawable/ic_outline_near_me_24px"
+                android:title="Directions"/>
+        <item
+                android:id="@+id/nav_sponsors"
+                android:icon="@drawable/ic_outline_monetization_on_24px"
+                android:title="Sponsors"/>
+        <item
+                android:id="@+id/nav_crew"
+                android:icon="@drawable/ic_outline_people_24px"
+                android:title="Crew"/>
+        <item
+                android:id="@+id/nav_about_developer"
+                android:icon="@drawable/ic_outline_person_outline_24px"
+                android:title="About Developer"/>
+    </group>
+
+</menu>

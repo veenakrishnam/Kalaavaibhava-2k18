@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kalaavaibhava 2k18</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">Email</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="about_kalaavaibhava">The youth festival that guarantees to catapult you into a world of fun. It is a biennial national level techno-cultural extravaganza brought to you by the students of SVCE. It provides three days of zealous profusion of versatility and a stage to unmask the star within yourself. Come join us and feel the aura of this extraordinary showcase of talents.</string>
+
+    <string name="developer_full_name">Veena Krishna</string>
+    <string name="about_developer">Developer / Designer</string>
+    <string name="developer_email">veenakrishna0204@gmail.com</string>
+    <string name="developer_github">https://github.com/veenakrishnam</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_signout">Sign Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_event">Event Activity</string>
+    <string name="title_activity_GoogleSignIn">Sign In with Google Account</string>
+    <string name="title_activity_ProfileComplete">Complete your profile</string>
+
+    <string name="loading">Loading</string>
+
+
+</resources>
